@@ -35,46 +35,31 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    #text: ""
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "About"
-    text: "Lorem ipsum timeline"
+    title: "About me"
+    text: " "
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Humble Beginnings"
+        year: "June 29<sup>th</sup> 2021"
+        desc: "On this day, shortly after my A'Level exams, I have felt the need to create this website, *or rather, give a makeover to the previous one* whilst releasing it to the public."
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "<br>Present.</br>"
 
   about:
-    title: "About Us"
+    title: "About Me"
     text: "our story"
     section: about
-
+#size: 130x50
   clients:
     section: clients
     max-height: 100px
@@ -83,9 +68,9 @@ en: &DEFAULT_EN
       - title: "alligent"
         #url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/alligent.png
-      - title: "designmodo"
+      - title: "mms"
         #url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: assets/img/clients/mms.png
       - title: "themeforest"
         #url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/themeforest.jpg
@@ -94,7 +79,7 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
+    title: "The AlligentDevs Team"
     text: ""
     subtext: To present, I am my own manager. Everything you mamy observe on this website is created, maintained and carried out with great care and discipline by yours truly.
     section: team
@@ -131,7 +116,6 @@ en: &DEFAULT_EN
             icon: fab fa-github
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -196,41 +180,41 @@ es: &DEFAULT_ES
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    section: nosotros
+#  timeline:
+#    title: "Cronología"
+#    text: "Lorem ipsum timeline"
+#    section: cronologia
+#    # left is the default
+#    #start_align: "left"
+#    events:
+#      - title: "Nuestro Humilde Comienzo"
+#        year: "2009-2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/1.jpg
+#        alt:
+#      - title: "Una Agencia nace"
+#        year: "March 2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/2.jpg
+#        alt:
+#      - title: "La plantilla Jekyll es creada"
+#        year: "2019"
+#        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+#        image: assets/img/timeline/3.jpg
+#        alt: image alt text
+#      - title: "Título"
+#        year: "2009-2011"
+#        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+#        image: assets/img/timeline/4.jpg
+#        alt:
+#        # you can enforce the alignment
+#        align: right
+#    end: "¡Se parte <br> de Nuestra <br> Historia!"
+#
+#  about:
+#    title: "Sobre nosotros"
+#    text: "nuestra historia"
+#    section: nosotros
 
   clients:
     section: clientes
