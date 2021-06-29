@@ -81,7 +81,7 @@ en: &DEFAULT_EN
   team:
     title: "My team"
     text: ""
-    subtext: To present, I am my own manager. Everything you mamy observe on this website is created, maintained and carried out with great care and discipline by yours truly.
+    subtext: To present, I am my own manager. Everything you may observe on this website is created, maintained and carried out with great care and discipline by yours truly.
     section: team
     people:
       - name: "Giorgio Grigolo"
