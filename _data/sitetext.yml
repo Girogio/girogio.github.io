@@ -66,10 +66,10 @@ en: &DEFAULT_EN
     horizontal-scrolling: "no" #"yes/no"
     list:
       - title: "alligent"
-        #url: https://github.com/raviriley/agency-jekyll-theme
+        #url: https://www.facebook.com/MaltaMathSoc/
         logo: assets/img/clients/alligent.png
       - title: "mms"
-        #url: https://github.com/raviriley/agency-jekyll-theme
+        url: https://www.facebook.com/MaltaMathSoc/
         logo: assets/img/clients/mms.png
       - title: "themeforest"
         #url: https://github.com/raviriley/agency-jekyll-theme
@@ -79,7 +79,7 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "The AlligentDevs Team"
+    title: "My team"
     text: ""
     subtext: To present, I am my own manager. Everything you mamy observe on this website is created, maintained and carried out with great care and discipline by yours truly.
     section: team
@@ -222,7 +222,7 @@ es: &DEFAULT_ES
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "mms"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: https://www.facebook.com/MaltaMathSoc/
         logo: assets/img/clients/mms.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
