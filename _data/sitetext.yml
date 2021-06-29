@@ -16,6 +16,8 @@ en: &DEFAULT_EN
     button: SHOW ME MORE
     buttonlink: "#services"
 
+#icons: https://fontawesome.com/icons
+
   services:
     title: "Services"
     text: " "
@@ -23,13 +25,13 @@ en: &DEFAULT_EN
     list:
       - title: "App Development"
         desc: "Let's work together and find out how your **idea** can become a **reality!** Always open to discussions and feasibility reports."
-        icon: fas fa-mobile #find more at https://fontawesome.com/icons
+        icon: fas fa-mobile 
       - title: "Teaching"
         desc: "Are you stuck at *maths* or *computing*? I can offer notes or private tuition to any **O'level** students who experience difficulty in the subject."
         icon: fas fa-chalkboard-teacher
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Musician"
+        desc: "Do you sing, play or just enjoy **music?** Let's help each other **grow** and fuel our passion - all while having **fun!**"
+        icon: fas fa-music
 
   portfolio:
     title: "Portfolio"
